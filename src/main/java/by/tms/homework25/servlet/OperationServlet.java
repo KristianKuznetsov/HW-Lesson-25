@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "CalculateServlet", urlPatterns = "/calc")
-public class CalculateServlet extends HttpServlet {
+@WebServlet(name = "OperationServlet", urlPatterns = "/calc")
+public class OperationServlet extends HttpServlet {
     private final OperationService operationService = new OperationService();
 
     @Override
